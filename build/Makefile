@@ -123,6 +123,19 @@ hello_world/fast:
 	$(MAKE) -f hello_world/CMakeFiles/hello_world.dir/build.make hello_world/CMakeFiles/hello_world.dir/build
 .PHONY : hello_world/fast
 
+#=============================================================================
+# Target rules for targets named check_dimension
+
+# Build rule for target.
+check_dimension: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 check_dimension
+.PHONY : check_dimension
+
+# fast build rule for target.
+check_dimension/fast:
+	$(MAKE) -f check_dimension/CMakeFiles/check_dimension.dir/build.make check_dimension/CMakeFiles/check_dimension.dir/build
+.PHONY : check_dimension/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -132,6 +145,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... hello_world"
+	@echo "... check_dimension"
 .PHONY : help
 
 
