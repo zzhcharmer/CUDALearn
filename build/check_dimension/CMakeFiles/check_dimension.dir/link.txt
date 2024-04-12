@@ -1,1 +1,0 @@
-/usr/lib/nvidia-cuda-toolkit/bin/g++  CMakeFiles/check_dimension.dir/check_dimension.cu.o -o check_dimension  -L"/usr/lib/x86_64-linux-gnu/stubs" -L"/usr/lib/x86_64-linux-gnu" -lcudadevrt -lcudart_static -lrt -lpthread -ldl

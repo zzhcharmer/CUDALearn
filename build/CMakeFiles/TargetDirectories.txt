@@ -1,8 +1,0 @@
-/root/workspace/CUDALearn/build/CMakeFiles/rebuild_cache.dir
-/root/workspace/CUDALearn/build/CMakeFiles/edit_cache.dir
-/root/workspace/CUDALearn/build/hello_world/CMakeFiles/rebuild_cache.dir
-/root/workspace/CUDALearn/build/hello_world/CMakeFiles/edit_cache.dir
-/root/workspace/CUDALearn/build/hello_world/CMakeFiles/hello_world.dir
-/root/workspace/CUDALearn/build/check_dimension/CMakeFiles/rebuild_cache.dir
-/root/workspace/CUDALearn/build/check_dimension/CMakeFiles/edit_cache.dir
-/root/workspace/CUDALearn/build/check_dimension/CMakeFiles/check_dimension.dir

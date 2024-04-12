@@ -3,6 +3,7 @@
     "files.associations": {
         "*.cu": "cuda-cpp",
         "iostream": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "cstdlib": "cpp"
     }
 }
