@@ -7,3 +7,12 @@ include_directories(./include)
 add_subdirectory(hello_world)
 add_subdirectory(check_dimension)
 add_subdirectory(device_information)
+add_subdirectory(grid_block)
+add_subdirectory(sum_arrays)
+add_subdirectory(sum_arrays_timer)
+add_subdirectory(pthread_index)
+add_subdirectory(test)
+
+
+
+

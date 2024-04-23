@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cuda_runtime.h>
 
-__global__ void checkIndex(void)
+__global__ void checkIndexKernel(void)
 {
     printf("\
     threadIdx:(%d,%d,%d)\
@@ -18,9 +18,9 @@ int main(int argc,char **argv) {
     const unsigned int nElem = 6;
     dim3 block(3);
     dim3 grid((nElem + block.x - 1) / block.x);
-    printf("grid.x %d grid.y %d grid.z %d\n", grid.x, grid.y, grid.z);
-    printf("block.x %d block.y %d block.z %d\n", block.x, block.y, block.z);
-    checkIndex<<< grid, block >>>();
+    std::cout << "grid.x = " << grid.x << "\tgrid.y = " << grid.y << "\tgrid.z= " << grid.z  << std::endl;
+    std::cout << "block.x = " << block.x << "\tblock.y = " << block.y << "\tblock.z= " << block.z  << std::endl;
+    checkIndexKernel<<< grid, block >>>();
     cudaDeviceReset();
     return 0;
 }

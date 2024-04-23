@@ -1,0 +1,1 @@
+add_executable(nested_hello_world nested_hello_world.cu)
